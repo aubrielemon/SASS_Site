@@ -1,0 +1,329 @@
+@media screen and (max-width: 48rem) {
+	[aria-controls="navbarDropdown"] {
+		display: block;
+		top: 5px;
+	}
+	[aria-expanded="false"] ~ ul {
+		display: none;
+		background-color: white;
+	}
+	[aria-expanded="true"] ~ ul {
+		display: flex;
+		justify-content: center;
+		border-top: 1px solid #d2d6d4;
+		margin-top: var(--size50);
+		margin-left: -1.563rem;
+		position: absolute;
+		left: 0;
+		top: var(--size50);
+		background-color: white;
+		padding-bottom: var(--size100);
+		width: 48rem;
+	}
+	[aria-expanded="true"] ~ ul li {
+		display: flex;
+		margin-top: 0;
+	}
+	[aria-expanded="true"] ~ ul li a {
+		margin-top: var(--size5);
+		color: var(--font);
+	}
+
+	.logo_nav {
+		margin-top: var(--size20);
+	}
+	.logo {
+		position: fixed;
+		top: 0;
+	}
+	.second_row {
+		position: absolute;
+		top: 4.688rem;
+	}
+	.sticky {
+		background: white;
+		padding: var(--size50);
+	}
+	.teams,
+	.front_makes,
+	.hubspot_container,
+	.price_cards,
+	.hire_form {
+		flex-direction: column;
+	}
+	.empowering,
+	.front_makes,
+	.hubspot_container,
+	.credit,
+	.play_center {
+		text-align: center;
+	}
+	.learn_more,
+	.number_month {
+		justify-content: center;
+	}
+	.logo_icons,
+	.big_card,
+	.play_center,
+	.whatever,
+	.form {
+		width: 100%;
+	}
+	.logo_icons {
+		grid-template-rows: repeat(3, 7.813rem);
+	}
+	.cards-container {
+		display: grid;
+		grid-template-columns: repeat(2, 350px);
+	}
+	.card {
+		width: 17.188rem;
+		margin-left: -1.25rem;
+		font-size: var(--size14);
+	}
+	.card br,
+	.front br,
+	.start br,
+	.small_grid p br,
+	.whatever br,
+	.form h2 br,
+	.yes br {
+		display: none;
+	}
+	.front_makes h2 {
+		font-size: var(--size30);
+		margin-bottom: var(--size50);
+	}
+	.software {
+		margin-top: var(--size40);
+	}
+	.software img {
+		width: 700px;
+	}
+	.list ul {
+		width: 47.813rem;
+		justify-content: flex-start;
+	}
+	.list li {
+		margin-right: var(--size30);
+	}
+	.list :nth-child(3) {
+		margin-left: 2.5rem;
+		margin-right: 4.688rem;
+	}
+	.play_button i {
+		margin-top: 4.688rem;
+	}
+	.hubspot_container {
+		margin-bottom: 4.688rem;
+	}
+	.company_logos img {
+		width: var(--size100);
+	}
+	.big_card {
+		height: var(--size300);
+		margin-left: -3.75rem;
+	}
+	.play_center,
+	.big_card .credit,
+	.number_month {
+		margin-top: -1.25rem;
+	}
+	.small_grid {
+		margin-left: -3.125rem;
+		margin-top: var(--size50);
+	}
+	.hire_us {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: -3.125rem;
+		margin-bottom: 0;
+	}
+	.form input {
+		width: 17.5rem;
+	}
+	.form select {
+		width: 19.063rem;
+		background-position: 17.188rem;
+	}
+	.comment {
+		width: 39.063rem;
+	}
+	.checkbox {
+		position: relative;
+		left: -7.813rem;
+	}
+	.started {
+		margin-left: 7.813rem;
+	}
+	.footer_grid {
+		grid-template-columns: 20rem 1fr 1fr;
+		grid-template-rows: 1fr;
+	}
+	.documentation {
+		grid-column-start: 2;
+	}
+	.bottom {
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 22.813rem) {
+	[aria-expanded="true"] ~ ul {
+		flex-direction: column;
+		width: 24.313rem;
+	}
+	[aria-expanded="true"] ~ ul li {
+		justify-content: center;
+	}
+	.second_row {
+		top: var(--size200);
+		left: 7.813rem;
+	}
+	.navbar_toggler {
+		left: var(--size300);
+	}
+	.flex_nav {
+		width: 16.563rem;
+	}
+
+	.empowering h2 br,
+	.line,
+	.hubspot_words h2 br,
+	.love br,
+	.bottom br {
+		display: none;
+	}
+	.empowering h2 {
+		font-size: 1.75rem;
+	}
+	.learn_more {
+		width: 22.5rem;
+	}
+	.logo_icons {
+		grid-template-columns: repeat(4, 4.688rem);
+	}
+	.logo_icons .google,
+	.logo_icons .paypal {
+		margin-left: -0.625rem;
+	}
+	.cards-container {
+		grid-template-columns: repeat(1, 350px);
+	}
+
+	.software img {
+		width: 22.5rem;
+		margin-left: -18.75rem;
+	}
+	.dots,
+	.list ul,
+	.company_logos,
+	.hire_us,
+	.terms,
+	.four,
+	.footer_grid {
+		flex-direction: column;
+	}
+	.dot {
+		margin-bottom: -1.875rem;
+	}
+	.list ul {
+		position: relative;
+		top: -12.813rem;
+		left: var(--size100);
+		width: var(--size300);
+	}
+	.list ul li {
+		margin-bottom: var(--size20);
+	}
+	.list :nth-child(3) {
+		margin-left: 0;
+	}
+	.play {
+		margin-top: -9.375rem;
+	}
+	.play_button i {
+		top: -10.938rem;
+	}
+	.hubspot_container {
+		margin-top: -4.688rem;
+	}
+	.crossed_arms {
+		width: 15.625rem;
+		height: 15.625rem;
+		margin-right: -1.25rem;
+		top: 0;
+	}
+	.dots_2 {
+		height: var(--size200);
+		top: 4.688rem;
+		left: -10.938rem;
+	}
+	.hubspot_words h2,
+	.trusted h2 {
+		font-size: var(--size20);
+	}
+	.trusted {
+		margin-bottom: 50px;
+	}
+	.company_logos {
+		margin-top: var(--size100);
+	}
+	.trusted .company_logos img {
+		margin-top: -6.25rem;
+		margin-left: var(--size100);
+	}
+	.price_cards {
+		margin: 1.25rem 0.313rem;
+	}
+	.big_card {
+		width: 15rem;
+		margin-left: -1.25rem;
+	}
+	.small_grid {
+		margin-left: 0;
+		grid-template-columns: 1fr;
+	}
+	.hire_us {
+		margin: 10px 0;
+	}
+	.form input {
+		width: 16.25rem;
+		margin-left: -0.938rem;
+	}
+	.form select {
+		width: 17.813rem;
+		margin-left: -0.938rem;
+		background-position: 15.625rem;
+	}
+	.comment {
+		width: 17.5rem;
+		margin-left: -0.938rem;
+	}
+	.checkbox {
+		left: -7.5rem;
+	}
+	.yes {
+		margin-left: 0.75rem;
+	}
+	.privacy_2 {
+		display: none;
+	}
+	.started {
+		margin-left: -6.25rem;
+	}
+	.footer_grid {
+		display: flex;
+	}
+	.terms,
+	.four,
+	.footer_grid,
+	.hire_us {
+		text-align: center;
+	}
+	.four_icons {
+		justify-content: center;
+		align-items: center;
+		margin-top: var(--size10);
+	}
+}
